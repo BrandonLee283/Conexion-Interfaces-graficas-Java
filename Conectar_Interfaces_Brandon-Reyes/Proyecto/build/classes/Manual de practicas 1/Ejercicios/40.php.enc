@@ -1,0 +1,28 @@
+Algoritmo sin_titulo
+	Definir m,f,a Como Caracter
+	m <- 'm'
+	f <- 'f'
+	Escribir 'Ingresa tu edad'
+	Leer x
+	Escribir 'Ingresa si eres Masculino o Femenino'
+	Leer a
+	Si (x>=70) Entonces
+		Escribir 'Aplicar Vacuna C'
+	SiNo
+		Si (x>=16) Entonces
+			Si (x<=69) Entonces
+				Si a=m Entonces
+					Escribir 'Aplicar Vacuna A'
+				SiNo
+					Si a=f Entonces
+						Escribir 'Aplicar Vacuna B'
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+		Si (x<16) Entonces
+			Escribir 'Aplicar Vacuna A'
+		FinSi
+	FinSi
+FinAlgoritmo
+
